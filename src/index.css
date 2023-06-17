@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Oxygen&family=Oxygen+Mono&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,300;1,200&family=Oxygen&family=Oxygen+Mono&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+font-family: 'Raleway', sans-serif;
+  }
+}
+
+.bg-home {
+  background-color: #D7F2CB;
+}
+
+.box {
+  height: 500px;
+  background-color: #EDE0B4;
+  border: 2px solid #000;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.pyy{
+  padding-left: 0.75 rem;
+  padding-right: 0.75 rem;
+}
+
+.bh{
+  background-color: #5DBBD9;
+}
+
+.size{
+  width: 400px;
+  height: 150px;
+}
